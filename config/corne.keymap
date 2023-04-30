@@ -16,14 +16,14 @@
                 default_layer {
 //                        Pinky           Ring            Middle          Index                                                           Index           Middle          Ring            Pinky
 //      -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//      | TAB           | B             | W             | F             | P             | .             | ||||||||||||| | ;             | L             | U             | Q             | J             | BKSP          |
+//      | TAB           | B             | W             | F             | P             | .             | ||||||||||||| | ,             | L             | U             | Q             | J             | BKSP          |
 //      | SHFT          | A             | R             | S             | T             | G             | ||||||||||||| | M             | N             | E             | I             | O             | '             |
-//      | CTRL          | D             | X             | C             | V             | ,             | ||||||||||||| | /             | H             | Z             | Y             | K             | ESC           |
+//      | CTRL          | D             | X             | C             | V             | ,             | ||||||||||||| | 7             | H             | Z             | Y             | K             | ESC           |
 //                                                      | GUI           | LWR           | SPC           | ||||||||||||| | ENT           | RSE           | ALT           |
                         bindings = <
-          &kp TAB         &kp B           &kp W           &kp F           &kp P           &kp DOT                         &kp ES_SEMI     &kp L           &kp U           &kp Q           &kp J           &kp BSPC
+          &kp TAB         &kp B           &kp W           &kp F           &kp P           &kp DOT                         &kp ES_COMMA    &kp L           &kp U           &kp Q           &kp J           &kp BSPC
           &kp LSHFT       &kp A           &kp R           &kp S           &kp T           &kp G                           &kp M           &kp N           &kp E           &kp I           &kp O           &kp ES_SQT
-          &kp LCTRL       &kp D           &kp X           &kp C           &kp V           &kp COMMA                       &kp ES_FSLH     &kp H           &kp Z           &kp Y           &kp K           &kp ESC
+          &kp LCTRL       &kp D           &kp X           &kp C           &kp V           &kp COMMA                       &kp ES_N7       &kp H           &kp Z           &kp Y           &kp K           &kp ESC
                                                           &kp LGUI        &mo 1           &kp SPACE                       &kp RET         &mo 2           &kp RALT
                         >;                                                                                                                                              
                 };
